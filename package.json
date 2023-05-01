@@ -1,0 +1,22 @@
+{
+  "name": "suika-starter",
+  "version": "1.0.0",
+  "description": "Simple suika starter app",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "cross-env NODE_ENV=production vite build",
+    "preview": "cross-env NODE_ENV=production vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "suika": "^1.5.1",
+    "suika-router": "^1.5.1",
+    "suika-ui": "^1.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sass": "^1.62.1",
+    "vite": "^4.3.3"
+  }
+}
